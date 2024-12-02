@@ -1,0 +1,27 @@
+{
+  "name": "presentations",
+  "author": {
+    "name": "mhartoft"
+  },
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://mhartoft.github.io/presentations/",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@types/reveal.js": "^5.0.4",
+    "gh-pages": "^6.2.0",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.1"
+  },
+  "dependencies": {
+    "reveal.js": "^5.1.0"
+  }
+}
